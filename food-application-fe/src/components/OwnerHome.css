@@ -1,0 +1,16 @@
+/* Your CSS file */
+
+.centerButton {
+    display: flex;
+    justify-content: center; /* Horizontally centers the button */
+    align-items: center; /* Vertically centers the button */
+    height: 100%; /* Optionally set a height to occupy the full height of the parent div */
+  }
+  
+  /* Or, if not using flexbox */
+  
+  .centerButton {
+    text-align: center; /* Horizontally centers the button */
+    line-height: inherit; /* Vertically centers the button */
+  }
+  

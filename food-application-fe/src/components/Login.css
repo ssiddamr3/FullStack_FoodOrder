@@ -1,0 +1,33 @@
+.backgroundShade{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    background: linear-gradient(91.3deg, rgb(135, 174, 220) 1.5%, rgb(255, 255, 255) 100.3%);
+};
+
+.commonBackground{
+    background-color:linear-gradient(91.3deg, rgb(135, 174, 220) 1.5%, rgb(255, 255, 255) 100.3%);
+}
+
+.customForm{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.loginText{
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between; /* Aligns items on each end */
+    align-items: center; /* Aligns items vertically */
+    padding: 10px; /* Adjust padding as needed */
+}
+span {
+    display: flex; /* or grid */
+    align-items: center; /* Adjust alignment */
+    gap: 10px; /* Adjust spacing between elements */
+  }
