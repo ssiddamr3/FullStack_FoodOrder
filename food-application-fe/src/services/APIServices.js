@@ -34,7 +34,7 @@ export default class APIServices{
             return data;
         } catch (error) {
             console.error('Error:', error);
-            return null; // Or handle the error in a way appropriate for your application
+            return null; 
         }
     }
 
@@ -43,7 +43,7 @@ export default class APIServices{
             const response = await axios.get(`http://127.0.0.1:8000/users/${username}/`, {
                 headers: {
                     'Content-Type': 'application/json',
-                    Authorization: `Token ${token}`, // Include the token in the Authorization header
+                    Authorization: `Token ${token}`, 
                 },
             });
             return response.data;
